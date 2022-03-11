@@ -1,0 +1,96 @@
+.color-bg-1 {
+    background: #370617;
+}
+
+.container-inner {
+    background: #F48C06;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    min-height: 160px;
+    flex: 1 1 400px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.container-outer {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 60px;
+    
+}
+
+.item {
+    background: #9D0208;
+    border-radius: 4px;
+    min-width: 78px;
+    min-height: 78px;
+    padding: 5px;
+    flex-grow: 78px;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-stretch {
+    align-items: stretch;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.align-self-end {
+    align-self: flex-end;
+}
+
+.align-baseline {
+    align-items: baseline;
+}
+
+.justify-space-evenly {
+    justify-content: space-evenly;
+}
+
+.container {
+    display: flex;
+}
+
+.text {
+    color: white;
+    height: 20px;
+}
+
+.item-stretch {
+    align-self: stretch;
+}
+
+.item-center {
+    align-self: center;
+}
+
+.item-double {
+    width: 150px;
+}

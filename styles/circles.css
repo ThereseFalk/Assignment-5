@@ -1,0 +1,39 @@
+.circle-bg-color {
+    background: #FAA307;
+}
+
+.circle-container-outer {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 60px;
+}
+
+.circle-container-inner {
+    min-height: 220px;
+    flex: 0 1 270px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background: #6A040F;
+}
+
+.circle-container-outer > :nth-child(odd) {
+    background: #03071E
+}
+
+.circle-item {
+    border-radius: 50%;
+    background: #748CAB;
+    width: 50px;
+    height: 50px;
+}
+
+.circle-justify-start {
+    justify-content: flex-start;
+}
+
+.circle-align-start {
+    align-items: flex-start;
+}
